@@ -37,7 +37,7 @@ const Update = () => {
             <input type="text" placeholder='title' onChange={handleChange} name='title'/>
             <input type="text" placeholder='desc' onChange={handleChange}  name='desc'/>
             <input type="number" placeholder='piece' onChange={handleChange}  name='piece'/>
-            <input type="text" placeholder='cover' onChange={handleChange}  name='cover'/>
+            //<input type="text" placeholder='cover' onChange={handleChange}  name='cover'/>//
 
             <button className='formButton' onClick={handleClick}>Update</button>
         </div>
